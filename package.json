@@ -1,0 +1,16 @@
+{
+  "name": "manarat",
+  "version": "1.0.0",
+  "description": "A personal Portfolio Template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w stylesheet/ -o css/ --source-map-contents --recursive",
+    "sass-build": "sass stylesheet/style.scss css/style.css"
+  },
+  "author": "hasan Misbah",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
